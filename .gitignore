@@ -6,6 +6,43 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore environment variable files
+.env
+
+# Ignore TOML configuration files
+*.toml
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Ignore log files
+*.log
+
+# Ignore local configuration files
+*.local
+*.yaml
+*.yml
+
+# Ignore any other temporary files
+*.tmp
+*.temp
+
 # Distribution / packaging
 .Python
 build/
